@@ -1,6 +1,6 @@
 # Root folder for all roms stored in a string array, sorted ny name
-[string[]]$ALLGames = (Get-ChildItem -LiteralPath "C:\Users\the_i\OneDrive\Desktop\Roms\" -Recurse -Name)
-$ALLGamesPATH = "C:\Users\the_i\OneDrive\Desktop\Roms\" 
+[string[]]$ALLGames = (Get-ChildItem -LiteralPath "<Path to ROMS files>" -Recurse -Name)
+$ALLGamesPATH = "<Path to ROMS files>" 
 $regexPatternA = '.\(.*\]' # Pattern matching "(something) [something]"
 $regexPatternB = '.\(.*\)' # Pattern matching "(something)"
 $regexPatternC = '.\[.*\]' # Pattern matching "[something]"
